@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+h1 {
+    height: 150px;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-image: url("images/soccer_image3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+img {
+    position: relative;
+    float: right;
+    width: 120px;
+    right: 100px;
+}
+
+.nav-section {
+    display: flex;
+    min-height: 250px;
+    margin: 15px;
+}
+
+nav {
+    display: inline-grid;
+    text-align: center;
+    margin: 5px;
+    max-height: 250px;
+}
+
+h2 {
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+}
+
+div h2 {
+    background: white;
+    color: black;
+}
+
+article {
+    float: left;
+    text-align: justify;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.mapas {
+    display: table-caption;
+    padding-left: 167px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+form {
+    Width: 660px;
+    Height: 100%;
+    display: inline-block;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+input {
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    cursor: pointer;
+}
+.mapas {
+    display: flex;
+}
+.mapas article{
+    padding-left: 20px;
+}
